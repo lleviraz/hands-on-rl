@@ -5,7 +5,7 @@ from collections import deque
 from pdb import set_trace as stop
 
 import numpy as np
-from tqdm import tqdm
+from tqdm.notebook import tqdm
 import torch
 from torch.utils.tensorboard import SummaryWriter
 
